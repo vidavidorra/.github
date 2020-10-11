@@ -4,9 +4,73 @@ Security fixes are provided for the latest released version.
 
 ## Reporting a Vulnerability
 
-If you have identified a security vulnerability please share the details of the issue via email to vidavidorra@gmail.com and include your GitHub username.
+If you have identified a security vulnerability please share the details via email to vidavidorra@gmail.com, [PGP information](#pgp-information) below, and include your GitHub username.
 
 > __*Note:*__ We ask that you do **not** open an issue or pull request on GitHub to keep the security-related information private until the security vulnerability is resolved.
 
 After receiving and verifying the security vulnerability, we will create a [GitHub security advisory](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/about-github-security-advisories) with you included.
 
+## PGP information
+
+User ID: Jeroen de Bruijn <<vidavidorra@gmail.com>>  
+Key ID: `7D12D6AB2A547EBB`  
+Fingerprint: `0938 1D3E 67BE B899 73BA  34CE 7D12 D6AB 2A54 7EBB`  
+
+<details><summary>Public PGP key</summary>
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+ldkvnQ==
+=l1IL
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+</details>
