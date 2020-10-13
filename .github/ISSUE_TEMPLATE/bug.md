@@ -26,7 +26,7 @@ labels: bug
 <!--
   Relevant details about the environment you're experienced the bug in. 
   - Version of the program/package.
-  - Output of `npx envinfo --system --binaries`.
+  - Output of `npx envinfo --system --binaries`, if applicable.
 -->
 
 Version: x.x.x
