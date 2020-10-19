@@ -6,7 +6,7 @@ Security fixes are provided for the latest released version.
 
 If you have identified a security vulnerability please share the details via email to vidavidorra@gmail.com, [PGP information](#pgp-information) below, and include your GitHub username.
 
-> __*Note:*__ We ask that you do **not** open an issue or pull request on GitHub to keep the security-related information private until the security vulnerability is resolved.
+> **_Note:_** We ask that you do **not** open an issue or pull request on GitHub to keep the security-related information private until the security vulnerability is resolved.
 
 After receiving and verifying the security vulnerability, we will create a [GitHub security advisory](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/about-github-security-advisories) with you included.
 
@@ -14,7 +14,7 @@ After receiving and verifying the security vulnerability, we will create a [GitH
 
 User ID: Jeroen de Bruijn <<vidavidorra@gmail.com>>  
 Key ID: `7D12D6AB2A547EBB`  
-Fingerprint: `0938 1D3E 67BE B899 73BA  34CE 7D12 D6AB 2A54 7EBB`  
+Fingerprint: `0938 1D3E 67BE B899 73BA 34CE 7D12 D6AB 2A54 7EBB`
 
 <details><summary>Public PGP key</summary>
 

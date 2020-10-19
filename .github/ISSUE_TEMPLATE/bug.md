@@ -24,7 +24,7 @@ labels: bug
 ## Environment
 
 <!--
-  Relevant details about the environment you're experienced the bug in. 
+  Relevant details about the environment you're experienced the bug in.
   - Version of the program/package.
   - Output of `npx envinfo --system --binaries`, if applicable.
 -->
