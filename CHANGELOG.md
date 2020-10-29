@@ -1,3 +1,25 @@
+### [1.0.1](https://github.com/vidavidorra/.github/compare/v1.0.0...v1.0.1) (2020-10-29)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.15 ([#2](https://github.com/vidavidorra/.github/issues/2)) ([d68f259](https://github.com/vidavidorra/.github/commit/d68f2593c0cb52665ff4a9bb0f35208eb7fd5561))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.16 ([#3](https://github.com/vidavidorra/.github/issues/3)) ([e6cafe2](https://github.com/vidavidorra/.github/commit/e6cafe2171ede5d3751301901b4d43f01ff5d93b))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.17 ([#5](https://github.com/vidavidorra/.github/issues/5)) ([22397a5](https://github.com/vidavidorra/.github/commit/22397a539019dce23c6bd201b450f0f6063043f4))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.19 ([#7](https://github.com/vidavidorra/.github/issues/7)) ([16d177d](https://github.com/vidavidorra/.github/commit/16d177d0f8c40a4e5a73c296a14116ce7739745d))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.20 ([#8](https://github.com/vidavidorra/.github/issues/8)) ([f39770a](https://github.com/vidavidorra/.github/commit/f39770a0a8cc6c02411124f3ab5f9a85615b0032))
+* **deps:** update dependency @vidavidorra/commitlint-config to v1.0.21 ([#9](https://github.com/vidavidorra/.github/issues/9)) ([fb809b3](https://github.com/vidavidorra/.github/commit/fb809b396cd922883350c826af345353d7bcfc82))
+* **deps:** update dependency eslint to v7.12.0 ([#6](https://github.com/vidavidorra/.github/issues/6)) ([c5c5fd7](https://github.com/vidavidorra/.github/commit/c5c5fd70ba65daa998cee7340749b8fb4de72f3c))
+* **deps:** update dependency eslint to v7.12.1 ([#11](https://github.com/vidavidorra/.github/issues/11)) ([e3f3ecc](https://github.com/vidavidorra/.github/commit/e3f3ecc7f0eb60a9e32773d9264276ebe80c2b7d))
+* **deps:** update dependency eslint-config-prettier to v6.14.0 ([#4](https://github.com/vidavidorra/.github/issues/4)) ([b4ecf8c](https://github.com/vidavidorra/.github/commit/b4ecf8c49930661f609670e2939c5c0e06f7cd68))
+* **deps:** update dependency eslint-config-prettier to v6.15.0 ([#12](https://github.com/vidavidorra/.github/issues/12)) ([84e310f](https://github.com/vidavidorra/.github/commit/84e310fffa353795989510ea3386e519a40cd1a3))
+* **deps:** update dependency lint-staged to v10.5.0 ([#10](https://github.com/vidavidorra/.github/issues/10)) ([e4990c2](https://github.com/vidavidorra/.github/commit/e4990c274c8683238b3713f23ad1406641119558))
+
+
+### Documentation
+
+* add contributing section on coding rules ([c29dec1](https://github.com/vidavidorra/.github/commit/c29dec16b7f89b1e2724c49babeecea4f635efc2))
+
 ## 1.0.0 (2020-10-19)
 
 
