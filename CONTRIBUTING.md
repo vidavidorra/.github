@@ -1,10 +1,34 @@
 # Contributing
 
+First of all, thanks for contributing and making the project better!
+
+As a contributor, we would like you to follow the following guidelines.
+
+- [Using the issue tracker](#using-the-issue-tracker)
+  - [Bug report](bug-report)
+  - [Feature proposal](#feature-proposal)
+  - [Question](#question)
 - [Coding rules](#coding-rules)
   - [Source code](#source-code)
   - [Documentation](#documentation)
   - [Commit guidelines](#commit-guidelines)
   - [Commit message format](#commit-message-format)
+
+# Using the issue tracker
+
+The issue tracker is the channel for bug reports, features proposals and questions. Before opening an issue or a pull request, please use the [GitHub issue and pull requests search](https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/searching-issues-and-pull-requests) to make sure the bug, feature or pull request hasn't already been reported or implemented.
+
+## Bug report
+
+A good bug report shouldn't leave others needing to chase you for more information. Please try to be as detailed as possible in your report and fill the information requested in the Bug report template.
+
+## Feature proposal
+
+Feature proposals are welcome, but take a moment to find out whether your idea fits in with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible and fill the information requested in the Feature proposal template.
+
+## Question
+
+Any questions regarding this project are welcome. Please fill the information requested in the Question template.
 
 # Coding rules
 
