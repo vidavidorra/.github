@@ -1,3 +1,17 @@
+### [1.0.2](https://github.com/vidavidorra/.github/compare/v1.0.1...v1.0.2) (2020-11-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v2.3.4 ([#15](https://github.com/vidavidorra/.github/issues/15)) ([2e158f7](https://github.com/vidavidorra/.github/commit/2e158f739ff9142c8af72ca291618332efc9dadc))
+* **deps:** update dependency lint-staged to v10.5.1 ([#14](https://github.com/vidavidorra/.github/issues/14)) ([03915ea](https://github.com/vidavidorra/.github/commit/03915ea519c2f51a22471f6ea82366ffa21a8904))
+* **deps:** update dependency semantic-release to v17.2.2 ([#13](https://github.com/vidavidorra/.github/issues/13)) ([7e5948a](https://github.com/vidavidorra/.github/commit/7e5948a1602f9010fc5d800224285fda24582824))
+
+
+### Documentation
+
+* add contributing section on using the issue tracker ([68f551c](https://github.com/vidavidorra/.github/commit/68f551c6eb8a296097682feb51ddf70553465c2c))
+
 ### [1.0.1](https://github.com/vidavidorra/.github/compare/v1.0.0...v1.0.1) (2020-10-29)
 
 
