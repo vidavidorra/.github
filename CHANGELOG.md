@@ -1,3 +1,16 @@
+### [1.0.3](https://github.com/vidavidorra/.github/compare/v1.0.2...v1.0.3) (2020-11-17)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency eslint to v7.13.0 ([#16](https://github.com/vidavidorra/.github/issues/16)) ([bdcb06a](https://github.com/vidavidorra/.github/commit/bdcb06aa57f9027e9bcef2e15ee9cc49d6ce76f4))
+* **deps:** update wagoid/commitlint-github-action action to v2.1.1 ([#17](https://github.com/vidavidorra/.github/issues/17)) ([f61ecb1](https://github.com/vidavidorra/.github/commit/f61ecb1cd2d406f8676295b60ee5cf4c66f17dc8))
+
+
+### Continuous Integration
+
+* use `env` to replace deprecated `set-env` ([69f4fe1](https://github.com/vidavidorra/.github/commit/69f4fe1bfd6e18810fcb6344455513544d31e6be))
+
 ### [1.0.2](https://github.com/vidavidorra/.github/compare/v1.0.1...v1.0.2) (2020-11-05)
 
 
