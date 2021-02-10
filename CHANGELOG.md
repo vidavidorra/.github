@@ -1,3 +1,9 @@
+### [1.0.6](https://github.com/vidavidorra/.github/compare/v1.0.5...v1.0.6) (2021-02-10)
+
+### Documentation
+
+- add 2021 to license ([fa11e02](https://github.com/vidavidorra/.github/commit/fa11e025a85fe1e90b4975fd2c55497fc783800a))
+
 ### [1.0.5](https://github.com/vidavidorra/.github/compare/v1.0.4...v1.0.5) (2021-02-10)
 
 ### Continuous Integration
