@@ -1,3 +1,9 @@
+### [1.0.7](https://github.com/vidavidorra/.github/compare/v1.0.6...v1.0.7) (2021-02-10)
+
+### Continuous Integration
+
+- hide `chore` commits from changelog generation ([d9845dd](https://github.com/vidavidorra/.github/commit/d9845ddaa0c299e3691705b4398415a921b7764f))
+
 ### [1.0.6](https://github.com/vidavidorra/.github/compare/v1.0.5...v1.0.6) (2021-02-10)
 
 ### Documentation
