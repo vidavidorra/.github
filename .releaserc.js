@@ -45,7 +45,7 @@ module.exports = {
       { type: 'revert', section: 'Reverts' },
       { type: 'docs', section: 'Documentation' },
       { type: 'style', section: 'Styles' },
-      { type: 'chore', section: 'Miscellaneous Chores' },
+      { type: 'chore', section: 'Miscellaneous Chores', hidden: true },
       { type: 'refactor', section: 'Code Refactoring' },
       { type: 'test', section: 'Tests' },
       { type: 'build', section: 'Build System' },
