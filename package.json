@@ -1,6 +1,6 @@
 {
   "name": "@vidavidorra/.github",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Default community files used in all our projects.",
   "private": true,
   "scripts": {

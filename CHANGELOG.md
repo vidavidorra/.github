@@ -1,3 +1,9 @@
+### [1.0.5](https://github.com/vidavidorra/.github/compare/v1.0.4...v1.0.5) (2021-02-10)
+
+### Continuous Integration
+
+- remove `chore` commit type from changelog (generation) ([21607f8](https://github.com/vidavidorra/.github/commit/21607f8759589883b0158eda47ea2fa4b25db5f6))
+
 ### [1.0.4](https://github.com/vidavidorra/.github/compare/v1.0.3...v1.0.4) (2021-02-10)
 
 ### Continuous Integration
