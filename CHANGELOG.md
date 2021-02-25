@@ -1,3 +1,9 @@
+### [1.0.8](https://github.com/vidavidorra/.github/compare/v1.0.7...v1.0.8) (2021-02-25)
+
+### Bug Fixes
+
+- **renovate:** auto-merge all non-major updates, including GitHub Actions ([f259596](https://github.com/vidavidorra/.github/commit/f259596b31310d7224cf4e79387a93b2d432cdae))
+
 ### [1.0.7](https://github.com/vidavidorra/.github/compare/v1.0.6...v1.0.7) (2021-02-10)
 
 ### Continuous Integration
