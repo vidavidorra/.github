@@ -16,14 +16,7 @@
   ],
   "packageRules": [
     {
-      "description": "Auto-merge dependencies",
-      "depTypeList": ["devDependencies", "dependencies"],
-      "updateTypes": ["pin", "digest", "patch", "minor"],
-      "automerge": true
-    },
-    {
-      "description": "Auto-merge non-major updates for npm and docker",
-      "matchManagers": ["npm", "docker"],
+      "description": "Auto-merge non-major updates",
       "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
       "automerge": true
     },
