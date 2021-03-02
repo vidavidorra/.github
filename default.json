@@ -25,6 +25,12 @@
       "matchPackageNames": ["prettier"],
       "matchPackagePatterns": ["^@prettier\\/", "^prettier-plugin-"],
       "groupName": "prettier packages"
+    },
+    {
+      "description": "Update vidavidorra's packages without waiting for stability",
+      "matchPackagePatterns": ["^@vidavidorra\\/"],
+      "matchPackageNames": ["commitlint-plugin-function-rules"],
+      "stabilityDays": 0
     }
   ],
   "stabilityDays": 3
