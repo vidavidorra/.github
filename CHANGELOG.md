@@ -1,3 +1,13 @@
+## [1.1.0](https://github.com/vidavidorra/.github/compare/v1.0.8...v1.1.0) (2021-03-02)
+
+### Features
+
+- **renovate:** update vidavidorra's packages without waiting for stability ([e0986f2](https://github.com/vidavidorra/.github/commit/e0986f2ff36ee24acf8445ea22d2857954a30705))
+
+### Styles
+
+- add ESLint ignore file to enable linting of dotfiles ([5d2f18f](https://github.com/vidavidorra/.github/commit/5d2f18f4e530714d57b1181eafbfbc8c6c31e451))
+
 ### [1.0.8](https://github.com/vidavidorra/.github/compare/v1.0.7...v1.0.8) (2021-02-25)
 
 ### Bug Fixes
