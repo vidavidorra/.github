@@ -12,7 +12,8 @@
     ":semanticCommitScope(deps)",
     "docker:enableMajor",
     "docker:pinDigests",
-    "group:linters"
+    "group:linters",
+    "helpers:pinGitHubActionDigests"
   ],
   "packageRules": [
     {
