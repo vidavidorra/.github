@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/vidavidorra/.github/compare/v1.1.0...v1.2.0) (2022-03-15)
+
+### Features
+
+- **renovate:** extend `helpers:pinGitHubActionDigests` to pin `github-action` digests ([c2e0885](https://github.com/vidavidorra/.github/commit/c2e0885bc417d3b0aaf5d3792069e815f5f4c700))
+
 ## [1.1.0](https://github.com/vidavidorra/.github/compare/v1.0.8...v1.1.0) (2021-03-02)
 
 ### Features
