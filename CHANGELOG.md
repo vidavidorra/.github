@@ -1,3 +1,9 @@
+### [1.2.1](https://github.com/vidavidorra/.github/compare/v1.2.0...v1.2.1) (2022-03-29)
+
+### Continuous Integration
+
+- make the lint commit message workflow reusable by adding the `workflow_call` trigger ([4d4b891](https://github.com/vidavidorra/.github/commit/4d4b8918e5a5d17797148e06c0e2e4178ce5ce72))
+
 ## [1.2.0](https://github.com/vidavidorra/.github/compare/v1.1.0...v1.2.0) (2022-03-15)
 
 ### Features
