@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: ./.github/workflows/node-install-project
+      - uses: ./.github/workflows/node-install-project.yml
       - name: Lint
         run: npm run lint
   release:
