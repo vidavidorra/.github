@@ -1,3 +1,15 @@
+### [1.2.2](https://github.com/vidavidorra/.github/compare/v1.2.1...v1.2.2) (2022-04-05)
+
+### Continuous Integration
+
+- add reusable workflow to build a Node.js project ([aa29202](https://github.com/vidavidorra/.github/commit/aa29202a7ab69942ec52369021fc887a41f7ccd3))
+- add reusable workflow to lint a Node.js project ([7224f1a](https://github.com/vidavidorra/.github/commit/7224f1afbc8e770b5041df8b1a30228d5d48434c))
+- add reusable workflow to setup and install a Node.js project ([e078528](https://github.com/vidavidorra/.github/commit/e0785281ea1fed28818f6acb1c7ab1d29e98ea31))
+- don't reuse workflow for `lint-commit-messages` reusable workflow ([a5faaa9](https://github.com/vidavidorra/.github/commit/a5faaa9657b5e513af249d4f9bdc118c310d3ffa))
+- don't run Node.js build workflow locally as we don't have a `build` script ([d8104d4](https://github.com/vidavidorra/.github/commit/d8104d4f606429fee9f98aacdd5a1342d4a750d2))
+- reference local reusable workfliw with extension ([f2fd19d](https://github.com/vidavidorra/.github/commit/f2fd19df69a6bfe0d7c4cabd80b6e3e3e49889f6))
+- use reusable `node-lint` workflow in the build workflow ([f2569ee](https://github.com/vidavidorra/.github/commit/f2569eeed83a4a3b14da381933cb88cd9c1bca16))
+
 ### [1.2.1](https://github.com/vidavidorra/.github/compare/v1.2.0...v1.2.1) (2022-03-29)
 
 ### Continuous Integration
