@@ -1,14 +1,7 @@
 name: Node.js build
-on:
-  push:
-    branches:
-      - main
-      - 'renovate/**'
-      - 'github-renovate/**'
-  pull_request:
-  workflow_call:
+on: workflow_call
 jobs:
-  commitlint:
+  node-build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

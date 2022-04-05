@@ -8,7 +8,7 @@ on:
   pull_request:
   workflow_call:
 jobs:
-  commitlint:
+  node-lint:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
