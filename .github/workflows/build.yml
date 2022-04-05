@@ -8,12 +8,7 @@ on:
   pull_request:
 jobs:
   lint:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: ./.github/workflows/node-install-project.yml
-      - name: Lint
-        run: npm run lint
+    uses: ./.github/workflows/node-lint.yml
   release:
     needs: lint
     runs-on: ubuntu-latest
