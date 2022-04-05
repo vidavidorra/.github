@@ -1,4 +1,4 @@
-# Default community files
+# Default community files <!-- omit in toc -->
 
 Default [community files](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/setting-up-your-project-for-healthy-contributions) used in all our projects.
 
@@ -10,7 +10,7 @@ Default [community files](https://docs.github.com/en/free-pro-team@latest/github
 
 <a name="toc"></a>
 
-## Table of contents
+## Table of contents <!-- omit in toc -->
 
 - [Contributing](#contributing)
 - [Security policy](#security-policy)
@@ -38,7 +38,7 @@ Please refer to the [Security Policy on GitHub](https://github.com/vidavidorra/.
 
 This project is licensed under the [GPLv3 license](https://www.gnu.org/licenses/gpl.html).
 
-Copyright © 2020-2021 Jeroen de Bruijn
+Copyright © 2020-2022 Jeroen de Bruijn
 
 <details><summary>License details.</summary>
 <p>
