@@ -1,0 +1,23 @@
+name: Node.js test
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        description: 'Version Spec of the version to use, passed directly to actions/setup-node.'
+        type: string
+        default: '16'
+jobs:
+  node-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+      - name: Setup Node.js
+        uses: actions/setup-node@56337c425554a6be30cdef71bf441f15be286854 # tag=v3.1.1
+        with:
+          node-version: ${{ inputs.node-version }}
+      - name: Install project
+        run: npm ci --ignore-scripts
+      - name: Test
+        run: npm test
