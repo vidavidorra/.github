@@ -1,3 +1,9 @@
+### [1.2.3](https://github.com/vidavidorra/.github/compare/v1.2.2...v1.2.3) (2022-05-04)
+
+### Continuous Integration
+
+- add reusable workflow to test a Node.js project ([0e1c44e](https://github.com/vidavidorra/.github/commit/0e1c44e7da3da1bb39b542c98cb3915d66b328c8))
+
 ### [1.2.2](https://github.com/vidavidorra/.github/compare/v1.2.1...v1.2.2) (2022-04-05)
 
 ### Continuous Integration
