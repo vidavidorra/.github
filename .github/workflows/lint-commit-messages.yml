@@ -1,12 +1,12 @@
 name: Lint commit messages
 on:
-  push:
-    branches:
-      - main
-      - 'renovate/**'
-      - 'github-renovate/**'
-  pull_request:
   workflow_call:
+    inputs:
+      configFile:
+        description: Commitlint configuration file.
+        type: string
+        required: false
+        default: ./commitlint.config.js
 jobs:
   commitlint:
     runs-on: ubuntu-latest
@@ -27,4 +27,5 @@ jobs:
         env:
           NODE_PATH: ${{ github.workspace }}/node_modules
         with:
+          configFile: ${{ inputs.configFile }}
           token: ${{ secrets.GITHUB_TOKEN }}

@@ -7,6 +7,8 @@ on:
       - 'github-renovate/**'
   pull_request:
 jobs:
+  lint-commit-messages:
+    uses: ./.github/workflows/lint-commit-messages.yml
   lint:
     uses: ./.github/workflows/node-lint.yml
   release:
