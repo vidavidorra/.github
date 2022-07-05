@@ -1,3 +1,9 @@
+## [1.2.4](https://github.com/vidavidorra/.github/compare/v1.2.3...v1.2.4) (2022-07-05)
+
+### Continuous Integration
+
+- add `configFile` input to reusable `lint-commit-messages` workflow ([5547b5d](https://github.com/vidavidorra/.github/commit/5547b5df5620636c36de41a311b42a4e4587dee2))
+
 ### [1.2.3](https://github.com/vidavidorra/.github/compare/v1.2.2...v1.2.3) (2022-05-04)
 
 ### Continuous Integration
