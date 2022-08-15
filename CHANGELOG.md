@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/vidavidorra/.github/compare/v1.2.4...v1.3.0) (2022-08-15)
+
+### Features
+
+- add reusable workflow to triage issues ([830f413](https://github.com/vidavidorra/.github/commit/830f413460a1644a25889e651715f338ebb3f563))
+
 ## [1.2.4](https://github.com/vidavidorra/.github/compare/v1.2.3...v1.2.4) (2022-07-05)
 
 ### Continuous Integration
