@@ -1,0 +1,30 @@
+name: Triage issue
+on:
+  workflow_call:
+    inputs:
+      projectUrl:
+        type: string
+        default: https://github.com/orgs/vidavidorra/projects/2
+        required: false
+    secrets:
+      TRIAGE_APP_ID:
+        description: 'GitHub App ID used for triage'
+        required: true
+      TRIAGE_PRIVATE_KEY:
+        description: 'private key of the GitHub App used for triage'
+        required: true
+jobs:
+  triage-issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate token
+        id: generate_token
+        uses: vidavidorra/github-app-token@e1df6ef2d28f0b02c63c7e9446e12547584f17fe # renovate: tag=v1.0.0
+        with:
+          appId: ${{ secrets.TRIAGE_APP_ID }}
+          privateKey: ${{ secrets.TRIAGE_PRIVATE_KEY }}
+      - uses: actions/add-to-project@a9f041ddd462ed185893ea1024cec954f50dbe42 # renovate: tag=v0.3.0
+        with:
+          project-url: ${{ inputs.projectUrl }}
+          github-token: ${{ steps.generate_token.outputs.token }}
