@@ -28,7 +28,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@eeb10cff27034e7acf239c5d29f62154018672fd # tag=v3.3.0
         with:
-          node-version: 14
+          node-version: 18
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Release
