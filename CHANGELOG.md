@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/vidavidorra/.github/compare/v2.0.2...v2.1.0) (2023-03-11)
+
+### Features
+
+- add `node-test-coverage` reusable workflow ([e2e15d7](https://github.com/vidavidorra/.github/commit/e2e15d774a842ce6d038062f451d6571495063fe))
+
 ## [2.0.2](https://github.com/vidavidorra/.github/compare/v2.0.1...v2.0.2) (2023-03-11)
 
 ### Bug Fixes
