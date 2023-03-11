@@ -1,12 +1,11 @@
 name: Node.js lint
 on:
-  push:
-    branches:
-      - main
-      - 'renovate/**'
-      - 'github-renovate/**'
-  pull_request:
   workflow_call:
+    inputs:
+      nodeVersion:
+        type: string
+        default: '18'
+        required: false
 jobs:
   node-lint:
     runs-on: ubuntu-latest
@@ -17,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@eeb10cff27034e7acf239c5d29f62154018672fd # tag=v3.3.0
         with:
-          node-version: 16
+          node-version: ${{ inputs.nodeVersion }}
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Lint
