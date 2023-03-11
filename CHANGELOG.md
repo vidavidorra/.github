@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/vidavidorra/.github/compare/v2.0.0...v2.0.1) (2023-03-11)
+
+### Continuous Integration
+
+- run release on Node.js 18 ([e59ea87](https://github.com/vidavidorra/.github/commit/e59ea87c4e31d0d7091c95ca2aa0d090f5f8874a))
+
 ## [2.0.0](https://github.com/vidavidorra/.github/compare/v1.3.0...v2.0.0) (2023-03-11)
 
 ### ⚠ BREAKING CHANGES
