@@ -1,3 +1,15 @@
+## [2.0.0](https://github.com/vidavidorra/.github/compare/v1.3.0...v2.0.0) (2023-03-11)
+
+### ⚠ BREAKING CHANGES
+
+- **node-test:** rename `node-version` input to `nodeVersion`, defaulting to 18
+
+### Features
+
+- **node-build:** add `nodeVersion` input, defaulting to 18, to reusable workflow ([f699207](https://github.com/vidavidorra/.github/commit/f699207b4abf7c1c22fa020e6be74ebd6d71c1b6))
+- **node-lint:** add `nodeVersion` input, defaulting to 18, to reusable workflow ([4bc4a83](https://github.com/vidavidorra/.github/commit/4bc4a837202fedbe704d1429ea6849d73cf5bedb))
+- **node-test:** rename `node-version` input to `nodeVersion`, defaulting to 18 ([16cf09e](https://github.com/vidavidorra/.github/commit/16cf09e5a375f4d82dc7ba46341bd01ee1fef7af))
+
 ## [1.3.0](https://github.com/vidavidorra/.github/compare/v1.2.4...v1.3.0) (2022-08-15)
 
 ### Features
