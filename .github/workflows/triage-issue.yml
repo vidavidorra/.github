@@ -24,7 +24,7 @@ jobs:
         with:
           appId: ${{ secrets.TRIAGE_APP_ID }}
           privateKey: ${{ secrets.TRIAGE_PRIVATE_KEY }}
-      - uses: actions/add-to-project@a9f041ddd462ed185893ea1024cec954f50dbe42 # renovate: tag=v0.3.0
+      - uses: actions/add-to-project@4756e6330fe1e0a736690d3cfd9f11c9399c2ed4 # v0.4.1
         with:
           project-url: ${{ inputs.projectUrl }}
           github-token: ${{ steps.generate_token.outputs.token }}
