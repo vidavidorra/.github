@@ -1,0 +1,37 @@
+name: Node.js test coverage
+on:
+  workflow_call:
+    inputs:
+      nodeVersion:
+        type: string
+        default: '18'
+        required: false
+      coverageFile:
+        type: string
+        default: './coverage/cobertura-coverage.xml'
+        required: false
+    secrets:
+      codecovToken:
+        description: 'A token passed from the caller workflow'
+        required: true
+jobs:
+  node-test:
+    name: Test coverage (Node.js ${{ inputs.nodeVersion }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+      - name: Setup Node.js ${{ inputs.nodeVersion }}
+        uses: actions/setup-node@eeb10cff27034e7acf239c5d29f62154018672fd # tag=v3.3.0
+        with:
+          node-version: ${{ inputs.nodeVersion }}
+      - name: Install project
+        run: npm ci --ignore-scripts
+      - name: Test
+        run: npm test
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@d9f34f8cd5cb3b3eb79b3e4b5dae3a16df499a70 # tag=v3.1.1
+        with:
+          token: ${{ secrets.codecovToken }}
+          file: ./coverage/cobertura-coverage.xml
