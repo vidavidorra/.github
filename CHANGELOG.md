@@ -1,3 +1,14 @@
+## [2.1.1](https://github.com/vidavidorra/.github/compare/v2.1.0...v2.1.1) (2023-03-12)
+
+### Bug Fixes
+
+- change job to `run` for `node-` reusable workflows ([675851c](https://github.com/vidavidorra/.github/commit/675851c40e2e0d6427f597a0f0db133fdf1c3254))
+- **node-test-coverage:** use `coverageFile` in Codecov upload ([1ff6b28](https://github.com/vidavidorra/.github/commit/1ff6b28f70eff705d6a0208e99432ab2a867847e))
+
+### Documentation
+
+- update license date ([cd56696](https://github.com/vidavidorra/.github/commit/cd5669668a9edb354b59ba17544812134ceb9c65))
+
 ## [2.1.0](https://github.com/vidavidorra/.github/compare/v2.0.2...v2.1.0) (2023-03-11)
 
 ### Features
