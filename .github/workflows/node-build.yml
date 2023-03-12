@@ -7,7 +7,7 @@ on:
         default: '18'
         required: false
 jobs:
-  node-build:
+  run:
     name: Build (Node.js ${{ inputs.nodeVersion }})
     runs-on: ubuntu-latest
     timeout-minutes: 5
