@@ -27,8 +27,6 @@ Please refer to the [contributing guide](https://github.com/vidavidorra/.github/
 [![Conventional Commits: 1.0.0](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 [![Code style](https://img.shields.io/badge/code_style-Prettier-ff69b4.svg?logo=prettier&style=flat-square)](https://github.com/prettier/prettier)
 [![Linting](https://img.shields.io/badge/linting-ESLint-lightgrey.svg?logo=eslint&style=flat-square)](https://eslint.org)
-[![Lint commit messages](https://img.shields.io/github/workflow/status/vidavidorra/.github/Lint%20commit%20messages?logo=github&label=Lint%20commit%20messages&style=flat-square)](https://github.com/vidavidorra/.github/actions)
-[![Build](https://img.shields.io/github/workflow/status/vidavidorra/.github/Build?logo=github&label=Build&style=flat-square)](https://github.com/vidavidorra/.github/actions)
 
 ## Security policy
 
@@ -38,7 +36,7 @@ Please refer to the [Security Policy on GitHub](https://github.com/vidavidorra/.
 
 This project is licensed under the [GPLv3 license](https://www.gnu.org/licenses/gpl.html).
 
-Copyright © 2020-2022 Jeroen de Bruijn
+Copyright © 2020-2023 Jeroen de Bruijn
 
 <details><summary>License details.</summary>
 <p>
