@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install .github/husky",
+    "build": "",
     "lint": "npm run format:check",
     "lint:fix": "npm run format",
     "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
