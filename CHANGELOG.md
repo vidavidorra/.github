@@ -1,3 +1,9 @@
+## [2.2.0](https://github.com/vidavidorra/.github/compare/v2.1.1...v2.2.0) (2023-06-29)
+
+### Features
+
+- add `release` reusable workflow ([b06ec26](https://github.com/vidavidorra/.github/commit/b06ec26f94f30361cfce423c3478c9ba5c6a2c87))
+
 ## [2.1.1](https://github.com/vidavidorra/.github/compare/v2.1.0...v2.1.1) (2023-03-12)
 
 ### Bug Fixes
