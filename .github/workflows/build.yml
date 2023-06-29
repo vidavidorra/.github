@@ -1,4 +1,4 @@
-name: Build
+name: CI
 on:
   push:
     branches:
@@ -12,30 +12,6 @@ jobs:
   lint:
     uses: ./.github/workflows/node-lint.yml
   release:
-    needs: lint
-    runs-on: ubuntu-latest
-    # GitHub API requests can easy take a couple of seconds and the release can
-    # make lots of API requests when a release has a lot of commits. If every
-    # requests takes five seconds, which is on the high side for a request, this
-    # could perform 180 requests. This should be enough for most use cases.
-    timeout-minutes: 15
-    steps:
-      - name: Checkout
-        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
-        with:
-          # Make sure the release step uses its own credentials.
-          persist-credentials: false
-      - name: Setup node
-        uses: actions/setup-node@eeb10cff27034e7acf239c5d29f62154018672fd # tag=v3.3.0
-        with:
-          node-version: 18
-      - name: Install project
-        run: npm ci --ignore-scripts
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
-          GIT_AUTHOR_NAME: vidavidorra-release
-          GIT_AUTHOR_EMAIL: 65564857+vidavidorra-release@users.noreply.github.com
-          GIT_COMMITTER_NAME: vidavidorra-release
-          GIT_COMMITTER_EMAIL: 65564857+vidavidorra-release@users.noreply.github.com
-        run: npx --no-install semantic-release
+    uses: ./.github/workflows/release.yml
+    secrets:
+      privateKey: ${{ secrets.RELEASE_PRIVATE_KEY }}

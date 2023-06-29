@@ -1,0 +1,64 @@
+name: Release
+on:
+  workflow_call:
+    inputs:
+      nodeVersion:
+        type: string
+        default: '18'
+        required: false
+      appId:
+        type: string
+        description: 'GitHub App ID'
+        default: ${{ vars.RELEASE_APP_ID }}
+        required: false
+      dockerUser:
+        type: string
+        default: ${{ vars.GH_PACKAGES_USERNAME }}
+        description: 'Docker registry user'
+        required: false
+    secrets:
+      privateKey:
+        description: 'GitHub App private key'
+        required: true
+      npmToken:
+        description: 'npm token'
+        required: false
+      dockerToken:
+        description: 'Docker registry token'
+        required: false
+jobs:
+  run:
+    name: Release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        with:
+          persist-credentials: false
+      - name: Setup Node.js ${{ inputs.nodeVersion }}
+        uses: actions/setup-node@eeb10cff27034e7acf239c5d29f62154018672fd # tag=v3.3.0
+        with:
+          node-version: ${{ inputs.nodeVersion }}
+      - name: Install project
+        run: npm ci --ignore-scripts
+      - name: Build
+        run: npm run build
+      - name: GitHub App token
+        id: appToken
+        uses: vidavidorra/github-app-token@v1.0.0
+        with:
+          appId: ${{ inputs.appId }}
+          privateKey: ${{ secrets.privateKey }}
+          includeUserInformation: true
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ steps.appToken.outputs.token }}
+          GIT_AUTHOR_NAME: ${{ steps.appToken.outputs.username }}
+          GIT_AUTHOR_EMAIL: ${{ steps.appToken.outputs.email }}
+          GIT_COMMITTER_NAME: ${{ steps.appToken.outputs.username }}
+          GIT_COMMITTER_EMAIL: ${{ steps.appToken.outputs.email }}
+          NPM_TOKEN: ${{ secrets.npmToken }}
+          DOCKER_REGISTRY_USER: ${{ inputs.dockerUser }}
+          DOCKER_REGISTRY_PASSWORD: ${{ secrets.dockerToken }}
+        run: npx --no-install semantic-release
