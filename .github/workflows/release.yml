@@ -46,7 +46,7 @@ jobs:
         run: npm run build
       - name: GitHub App token
         id: appToken
-        uses: vidavidorra/github-app-token@e1df6ef2d28f0b02c63c7e9446e12547584f17fe # v1.0.0
+        uses: vidavidorra/github-app-token@3bfc462f0355ce6268121fdb6c140a8bb4c6839a # v1.0.1
         with:
           appId: ${{ inputs.appId }}
           privateKey: ${{ secrets.privateKey }}

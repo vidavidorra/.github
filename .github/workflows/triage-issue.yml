@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Generate token
         id: generate_token
-        uses: vidavidorra/github-app-token@e1df6ef2d28f0b02c63c7e9446e12547584f17fe # renovate: tag=v1.0.0
+        uses: vidavidorra/github-app-token@3bfc462f0355ce6268121fdb6c140a8bb4c6839a # v1.0.1
         with:
           appId: ${{ secrets.TRIAGE_APP_ID }}
           privateKey: ${{ secrets.TRIAGE_PRIVATE_KEY }}
