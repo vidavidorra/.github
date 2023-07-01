@@ -2,31 +2,74 @@
 
 Default [community files](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/setting-up-your-project-for-healthy-contributions) used in all our projects.
 
+- Reusable [**GitHub**][github] Actions workflows.
+- [**GitHub**][github] issue and pull request templates.
+- [**Renovate**][renovate] configuration preset.
+- Contributing guidelines.
+
 ---
 
 [![Renovate enabled](https://img.shields.io/badge/Renovate-enabled-brightgreen.svg?logo=renovatebot&logoColor&style=flat-square)](https://renovatebot.com)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 [![License](https://img.shields.io/github/license/vidavidorra/.github.svg?style=flat-square)](LICENSE.md)
 
-<a name="toc"></a>
-
-## Table of contents <!-- omit in toc -->
-
+- [Usage](#usage)
+  - [Reusable GitHub Action workflows](#reusable-github-action-workflows)
+  - [Renovate](#renovate)
+  - [Contributing guidelines](#contributing-guidelines)
 - [Contributing](#contributing)
 - [Security policy](#security-policy)
 - [License](#license)
 
+## Usage
+
+### Reusable GitHub Action workflows
+
+Most of the workflows in the [.github/workflows](.github/workflows) folder are reusable workflows. Please see each individual workflow file for it's specific usage and possible inputs. The following example shows the most basic usage in the `lint` job as well as a little bit more advance usage, with workflow inputs, in the `build` job. Please see the [Calling a reusable workflow](https://docs.github.com/en/actions/using-workflows/reusing-workflows#calling-a-reusable-workflow) section of the [**GitHub**][github] documentation for more details.
+
+```yml
+jobs:
+  lint:
+    uses: vidavidorra/.github/.github/workflows/node-lint.yml
+  build:
+    strategy:
+      matrix:
+        nodeVersion: [18, 20]
+    uses: vidavidorra/.github/.github/workflows/node-build.yml
+    with:
+      nodeVersion: ${{ matrix.nodeVersion }}
+```
+
+### Renovate
+
+To use the configuration preset, inlcude `github>vidavidorra/.github` in the `extends` array of the [**Renovate**][renovate] configuration, as per it's [documentation](https://docs.renovatebot.com/config-presets/#extending-from-a-preset).
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>vidavidorra/.github"]
+}
+```
+
+### Contributing guidelines
+
+In the section on contributing of the project's readme, refer to the contributing guidelines of this repository. The following text shows an example of such reference.
+
+> Refer to the [contributing guide](https://github.com/vidavidorra/.github/blob/main/CONTRIBUTING.md) for detailed information about other contributions, like creating a pull request.
+
+```
+Refer to the [contributing guide](https://github.com/vidavidorra/.github/blob/main/CONTRIBUTING.md) for detailed information about other contributions, like creating a pull request.
+```
+
 ## Contributing
 
-Please [create an issue](https://github.com/vidavidorra/.github/issues/new/choose) if you have a bug report, feature proposal or question that does not yet exist.
+Please [create an issue](https://github.com/vidavidorra/.github/issues/new/choose) if you have a bug report or feature proposal, or [create a discussion](https://github.com/vidavidorra/.github/discussions) if you have a question. If you like this project, please consider giving it a star ⭐ and/or become a [sponsor](https://github.com/sponsors/jdbruijn) to support my work.
 
-Please give this project a star ⭐ if you like it and consider becoming a [sponsor](https://github.com/sponsors/jdbruijn) to support this project.
+Refer to the [contributing guide](CONTRIBUTING.md) detailed information about other contributions, like pull requests.
 
-Please refer to the [contributing guide](https://github.com/vidavidorra/.github/CONTRIBUTING.md) detailed information about other contributions, like pull requests.
-
-[![Conventional Commits: 1.0.0](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
-[![Code style](https://img.shields.io/badge/code_style-Prettier-ff69b4.svg?logo=prettier&style=flat-square)](https://github.com/prettier/prettier)
-[![Linting](https://img.shields.io/badge/linting-ESLint-lightgrey.svg?logo=eslint&style=flat-square)](https://eslint.org)
+[![Conventional Commits: 1.0.0](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow?style=flat-square)](https://conventionalcommits.org)
+[![XO code style](https://shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray&style=flat-square)](https://github.com/xojs/xo)
+[![Code style](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier&style=flat-square)](https://github.com/prettier/prettier)
 
 ## Security policy
 
@@ -38,7 +81,7 @@ This project is licensed under the [GPLv3 license](https://www.gnu.org/licenses/
 
 Copyright © 2020-2023 Jeroen de Bruijn
 
-<details><summary>License details.</summary>
+<details><summary>License notice</summary>
 <p>
 
 This program is free software: you can redistribute it and/or modify
@@ -57,3 +100,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 The full text of the license is available in the [LICENSE](LICENSE.md) file in this repository and [online](https://www.gnu.org/licenses/gpl.html).
 
 </details>
+
+<!-- References -->
+
+[github]: https://github.com/
+[renovate]: https://www.mend.io/renovate/
