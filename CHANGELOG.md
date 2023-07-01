@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/vidavidorra/.github/compare/v2.2.0...v2.2.1) (2023-07-01)
+
+### Documentation
+
+- add usage examples ([07c1bcf](https://github.com/vidavidorra/.github/commit/07c1bcf1a29fe6a86c69f8e23f2e179f7e708271))
+- **contributing:** clarify guidelines, introducing more examples ([73156db](https://github.com/vidavidorra/.github/commit/73156db1de800312ed0253565e24d74b2cc68e98))
+
 ## [2.2.0](https://github.com/vidavidorra/.github/compare/v2.1.1...v2.2.0) (2023-06-29)
 
 ### Features
