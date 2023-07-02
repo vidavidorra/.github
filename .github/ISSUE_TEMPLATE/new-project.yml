@@ -20,8 +20,8 @@ body:
       label: Description
       description: Please elaborate on the project.
       placeholder: |
-        - What wuold the project do.
-        - Existing resources on this project.
+        - What would the project do?
+        - Please reference any relevant existing resources on this project.
     validations:
       required: true
   - type: textarea
