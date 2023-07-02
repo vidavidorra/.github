@@ -1,0 +1,36 @@
+name: Project proposal
+description: Proposal for a new project.
+labels: [project]
+body:
+  - type: markdown
+    attributes:
+      value: Proposal for a new project in the vidavidorra organisation.
+  - type: dropdown
+    attributes:
+      label: Programming language(s)
+      description: What programming language(s) will the project be in?
+      multiple: true
+      options:
+        - C
+        - C++
+        - HTML
+        - TypeScript
+  - type: textarea
+    attributes:
+      label: Description
+      description: Please elaborate on the project.
+      placeholder: |
+        - What wuold the project do.
+        - Existing resources on this project.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Motivation
+      description: Why should this project be created?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Project name
+      description: What would be the name of the project?
