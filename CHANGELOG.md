@@ -1,3 +1,14 @@
+## [2.2.2](https://github.com/vidavidorra/.github/compare/v2.2.1...v2.2.2) (2023-07-02)
+
+### Continuous Integration
+
+- add issue template for a new project ([caa9358](https://github.com/vidavidorra/.github/commit/caa9358c66e6505b1f143cca7da08c39da4525f0))
+- add roadmap link to the GitHub issue template chooser ([3dc1702](https://github.com/vidavidorra/.github/commit/3dc1702cfa69cec5433a412068f396a6785db8b2))
+
+### Documentation
+
+- add link to the roadmap project ([85b483c](https://github.com/vidavidorra/.github/commit/85b483ce60f5273ffbbf9cc4701e9447a7f93188))
+
 ## [2.2.1](https://github.com/vidavidorra/.github/compare/v2.2.0...v2.2.1) (2023-07-01)
 
 ### Documentation
