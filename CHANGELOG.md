@@ -1,3 +1,13 @@
+## [3.0.0](https://github.com/vidavidorra/.github/compare/v2.2.3...v3.0.0) (2023-07-02)
+
+### ⚠ BREAKING CHANGES
+
+- **commitlint:** default configuration file to `package.json`
+
+### Features
+
+- **commitlint:** default configuration file to `package.json` ([e61894b](https://github.com/vidavidorra/.github/commit/e61894bc4cbff18d15f3eb9c089dea5ede270009))
+
 ## [2.2.3](https://github.com/vidavidorra/.github/compare/v2.2.2...v2.2.3) (2023-07-02)
 
 ### Continuous Integration
