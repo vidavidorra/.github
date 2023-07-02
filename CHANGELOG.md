@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/vidavidorra/.github/compare/v2.2.2...v2.2.3) (2023-07-02)
+
+### Continuous Integration
+
+- **new-project:** correct grammar ([6f1ae10](https://github.com/vidavidorra/.github/commit/6f1ae10968ef2ff77afe947ffc4b0ee2fd22b785))
+- remove question issue template as GitHub discussions are used for that now ([38c7272](https://github.com/vidavidorra/.github/commit/38c72722934107f29f6850536637c0d8278d80c9))
+
 ## [2.2.2](https://github.com/vidavidorra/.github/compare/v2.2.1...v2.2.2) (2023-07-02)
 
 ### Continuous Integration
