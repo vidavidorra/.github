@@ -2,6 +2,7 @@
 
 Default [community files](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/setting-up-your-project-for-healthy-contributions) used in all our projects.
 
+- [Roadmap](https://github.com/orgs/vidavidorra/projects/2) for the [vidavidorra organisation](https://github.com/vidavidorra).
 - Reusable [**GitHub**][github] Actions workflows.
 - [**GitHub**][github] issue and pull request templates.
 - [**Renovate**][renovate] configuration preset.
