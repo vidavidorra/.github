@@ -1,4 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>vidavidorra/.github"]
+  "extends": ["local>vidavidorra/.github"],
+  "packageRules": [
+    {
+      "description": "Update GitHub Actions as fix commits",
+      "matchManagers": ["github-actions"],
+      "extends": [":semanticPrefixFix"]
+    }
+  ]
 }
