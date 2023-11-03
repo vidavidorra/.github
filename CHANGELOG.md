@@ -1,3 +1,18 @@
+## [4.0.0](https://github.com/vidavidorra/.github/compare/v3.0.0...v4.0.0) (2023-11-03)
+
+### ⚠ BREAKING CHANGES
+
+- default workflows to Node.js 20
+
+### Features
+
+- default workflows to Node.js 20 ([bccd89c](https://github.com/vidavidorra/.github/commit/bccd89c8580702723f049810686dd4a785b925ab))
+- **renovate:** extend `config:best-practices` ([952dad7](https://github.com/vidavidorra/.github/commit/952dad7318ae508ac9ab91f736ea64e74ee05e0d))
+
+### Continuous Integration
+
+- update GitHub Actions as `fix` commits, triggering releases ([af7cc07](https://github.com/vidavidorra/.github/commit/af7cc07af266b3301e22004b6adadb164ac2f8ca))
+
 ## [3.0.0](https://github.com/vidavidorra/.github/compare/v2.2.3...v3.0.0) (2023-07-02)
 
 ### ⚠ BREAKING CHANGES
