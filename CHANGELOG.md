@@ -1,3 +1,9 @@
+## [4.0.1](https://github.com/vidavidorra/.github/compare/v4.0.0...v4.0.1) (2023-11-04)
+
+### Bug Fixes
+
+- **deps:** update wagoid/commitlint-github-action action to v5.4.4 ([#123](https://github.com/vidavidorra/.github/issues/123)) ([52c0dd2](https://github.com/vidavidorra/.github/commit/52c0dd2b07d85aa59882e92a6a78c8c04e2d6788))
+
 ## [4.0.0](https://github.com/vidavidorra/.github/compare/v3.0.0...v4.0.0) (2023-11-03)
 
 ### ⚠ BREAKING CHANGES
