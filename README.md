@@ -1,8 +1,8 @@
 # Default community files <!-- omit in toc -->
 
-Default [community files](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/setting-up-your-project-for-healthy-contributions) used in all our projects.
+Default [community files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions) used in all of the [vidavidorra organisation][organisation]'s projects.
 
-- [Roadmap](https://github.com/orgs/vidavidorra/projects/2) for the [vidavidorra organisation](https://github.com/vidavidorra).
+- [Roadmap](https://github.com/orgs/vidavidorra/projects/2) for the [vidavidorra organisation][organisation]'s projects.
 - Reusable [**GitHub**][github] Actions workflows.
 - [**GitHub**][github] issue and pull request templates.
 - [**Renovate**][renovate] configuration preset.
@@ -26,7 +26,7 @@ Default [community files](https://docs.github.com/en/free-pro-team@latest/github
 
 ### Reusable GitHub Action workflows
 
-Most of the workflows in the [.github/workflows](.github/workflows) folder are reusable workflows. Please see each individual workflow file for it's specific usage and possible inputs. The following example shows the most basic usage in the `lint` job as well as a little bit more advance usage, with workflow inputs, in the `build` job. Please see the [Calling a reusable workflow](https://docs.github.com/en/actions/using-workflows/reusing-workflows#calling-a-reusable-workflow) section of the [**GitHub**][github] documentation for more details.
+Most of the workflows in the [`.github/workflows`](.github/workflows) folder are reusable workflows. Please see each individual workflow file for it's specific usage and possible inputs. The following example shows the most basic usage in the `lint` job, as well as a little bit more advance usage, with workflow inputs, in the `build` job. Please see the [Calling a reusable workflow](https://docs.github.com/en/actions/using-workflows/reusing-workflows#calling-a-reusable-workflow) section of the [**GitHub**][github] documentation for more details.
 
 ```yml
 jobs:
@@ -43,7 +43,7 @@ jobs:
 
 ### Renovate
 
-To use the configuration preset, inlcude `github>vidavidorra/.github` in the `extends` array of the [**Renovate**][renovate] configuration, as per it's [documentation](https://docs.renovatebot.com/config-presets/#extending-from-a-preset).
+To use the configuration preset, inlcude `github>vidavidorra/.github` in the `extends` array of the [**Renovate**][renovate] configuration, as per its [documentation](https://docs.renovatebot.com/config-presets/#extending-from-a-preset).
 
 ```json
 {
@@ -104,5 +104,6 @@ The full text of the license is available in the [LICENSE](LICENSE.md) file in t
 
 <!-- References -->
 
+[organisation]: https://github.com/vidavidorra
 [github]: https://github.com/
 [renovate]: https://www.mend.io/renovate/
