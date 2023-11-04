@@ -1,3 +1,17 @@
+## [4.1.0](https://github.com/vidavidorra/.github/compare/v4.0.1...v4.1.0) (2023-11-04)
+
+### Features
+
+- **renovate:** update `vidavidorra/.github` GitHub Actions workflows without stability days ([aee83d8](https://github.com/vidavidorra/.github/commit/aee83d8b120b3d9222763c31e35f45cb658a4fa8))
+
+### Continuous Integration
+
+- fail `format` scripts on a warning ([5430523](https://github.com/vidavidorra/.github/commit/5430523f8022708edd72dbb66f5c5195b3e80d86))
+
+### Documentation
+
+- small improvements on readme wording ([e655690](https://github.com/vidavidorra/.github/commit/e655690e3665de11801503a609e48eb7eab99f50))
+
 ## [4.0.1](https://github.com/vidavidorra/.github/compare/v4.0.0...v4.0.1) (2023-11-04)
 
 ### Bug Fixes
