@@ -1,37 +1,26 @@
 {
   "name": "@vidavidorra/.github",
   "version": "4.0.1",
-  "description": "Default community files used in all our projects.",
   "private": true,
-  "type": "module",
-  "scripts": {
-    "prepare": "husky install .github/husky",
-    "build": "",
-    "lint": "npm run format:check",
-    "lint:fix": "npm run format",
-    "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn"
+  "description": "Default community files used in all our projects.",
+  "homepage": "https://github.com/vidavidorra/.github#readme",
+  "bugs": {
+    "url": "https://github.com/vidavidorra/.github/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vidavidorra/.github.git"
   },
-  "author": "Jeroen de Bruijn",
   "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/vidavidorra/.github/issues"
-  },
-  "homepage": "https://github.com/vidavidorra/.github#readme",
-  "devDependencies": {
-    "@commitlint/cli": "18.2.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/exec": "6.0.3",
-    "@semantic-release/git": "10.0.1",
-    "@vidavidorra/commitlint-config": "5.0.2",
-    "husky": "8.0.3",
-    "lint-staged": "15.0.2",
-    "prettier": "3.0.3",
-    "semantic-release": "22.0.6"
+  "author": "Jeroen de Bruijn",
+  "type": "module",
+  "scripts": {
+    "build": "",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
+    "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
+    "lint": "npm run format:check",
+    "lint:fix": "npm run format",
+    "prepare": "husky install .github/husky"
   },
   "commitlint": {
     "extends": [
@@ -152,5 +141,16 @@
         }
       ]
     }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "18.2.0",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@vidavidorra/commitlint-config": "5.0.2",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.2",
+    "prettier": "3.0.3",
+    "semantic-release": "22.0.6"
   }
 }
