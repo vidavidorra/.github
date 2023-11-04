@@ -27,7 +27,10 @@
     {
       "description": "Update vidavidorra's packages without waiting for stability",
       "matchPackagePatterns": ["^@vidavidorra\\/"],
-      "matchPackageNames": ["commitlint-plugin-function-rules"],
+      "matchPackageNames": [
+        "commitlint-plugin-function-rules",
+        "vidavidorra/.github"
+      ],
       "stabilityDays": 0
     }
   ],
