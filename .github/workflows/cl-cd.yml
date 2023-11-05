@@ -1,11 +1,12 @@
-name: CI
+name: CI/CD
 on:
   push:
     branches:
       - main
+      - beta
       - 'renovate/**'
       - 'github-renovate/**'
-  pull_request:
+  pull_request: null
 jobs:
   lint-commit-messages:
     uses: ./.github/workflows/lint-commit-messages.yml
