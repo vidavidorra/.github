@@ -1,3 +1,9 @@
+## [4.1.1](https://github.com/vidavidorra/.github/compare/v4.1.0...v4.1.1) (2023-11-05)
+
+### Continuous Integration
+
+- rename `build` workflow to `ci-cd` ([c135a3d](https://github.com/vidavidorra/.github/commit/c135a3daea6d7267cae31cd7b21b8af35d279301))
+
 ## [4.1.0](https://github.com/vidavidorra/.github/compare/v4.0.1...v4.1.0) (2023-11-04)
 
 ### Features
