@@ -1,3 +1,9 @@
+## [4.1.2](https://github.com/vidavidorra/.github/compare/v4.1.1...v4.1.2) (2023-12-18)
+
+### Bug Fixes
+
+- **deps:** update actions/setup-node action to v4.0.1 ([7cb9b0d](https://github.com/vidavidorra/.github/commit/7cb9b0d023b95e5d8e21bcd71c3a7115fe6a4338))
+
 ## [4.1.1](https://github.com/vidavidorra/.github/compare/v4.1.0...v4.1.1) (2023-11-05)
 
 ### Continuous Integration
