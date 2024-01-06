@@ -64,7 +64,7 @@ Refer to the [contributing guide](https://github.com/vidavidorra/.github/blob/ma
 
 ## Contributing
 
-Please [create an issue](https://github.com/vidavidorra/.github/issues/new/choose) if you have a bug report or feature proposal, or [create a discussion](https://github.com/vidavidorra/.github/discussions) if you have a question. If you like this project, please consider giving it a star ⭐ and/or become a [sponsor](https://github.com/sponsors/jdbruijn) to support my work.
+Please [create an issue](https://github.com/vidavidorra/.github/issues/new/choose) if you have a bug report or feature proposal, or [create a discussion](https://github.com/vidavidorra/.github/discussions) if you have a question. If you like this project, please consider giving it a star ⭐
 
 Refer to the [contributing guide](CONTRIBUTING.md) detailed information about other contributions, like pull requests.
 
