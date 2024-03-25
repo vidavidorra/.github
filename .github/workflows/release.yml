@@ -54,8 +54,8 @@ jobs:
         id: appUser
         uses: vidavidorra/github-action-app-user@a3ae5a44edcebbf7fe7b3563b4e2e76afa3b1462 # v1.0.1
         with:
-          token: ${{ appToken.outputs.token }}
-          slug: ${{ appToken.outputs.app-slug }}
+          token: ${{ steps.appToken.outputs.token }}
+          slug: ${{ steps.appToken.outputs.app-slug }}
       - name: Release
         env:
           GITHUB_TOKEN: ${{ steps.appToken.outputs.token }}
