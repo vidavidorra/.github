@@ -1,3 +1,13 @@
+## [4.2.0](https://github.com/vidavidorra/.github/compare/v4.1.11...v4.2.0) (2024-03-25)
+
+### Features
+
+- **release:** use official action to create the GitHub app token and separately get the user ([eb647d8](https://github.com/vidavidorra/.github/commit/eb647d8455292529b6fdca1b669ba6b384594992))
+
+### Bug Fixes
+
+- **deps:** pin GitHub Actions ([677bc48](https://github.com/vidavidorra/.github/commit/677bc48d0de0930e7bc04821a369355097be92ff))
+
 ## [4.1.11](https://github.com/vidavidorra/.github/compare/v4.1.10...v4.1.11) (2024-03-22)
 
 ### Bug Fixes
