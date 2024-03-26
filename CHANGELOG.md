@@ -1,3 +1,9 @@
+## [4.2.1](https://github.com/vidavidorra/.github/compare/v4.2.0...v4.2.1) (2024-03-26)
+
+### Continuous Integration
+
+- temporary disable `lint-commit-messages` ([#130](https://github.com/vidavidorra/.github/issues/130)) ([8a81d9e](https://github.com/vidavidorra/.github/commit/8a81d9e7b53a9a9d0d3e34bbc7327e2ce7e5224d))
+
 ## [4.2.0](https://github.com/vidavidorra/.github/compare/v4.1.11...v4.2.0) (2024-03-25)
 
 ### Features
