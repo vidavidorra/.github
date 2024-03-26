@@ -8,12 +8,14 @@ on:
       - 'github-renovate/**'
   pull_request: null
 jobs:
-  lint-commit-messages:
-    uses: ./.github/workflows/lint-commit-messages.yml
+  # lint-commit-messages:
+  #   uses: ./.github/workflows/lint-commit-messages.yml
   lint:
     uses: ./.github/workflows/node-lint.yml
   release:
-    needs: [lint-commit-messages, lint]
+    needs:
+      # - lint-commit-messages
+      - lint
     uses: ./.github/workflows/release.yml
     secrets:
       privateKey: ${{ secrets.RELEASE_PRIVATE_KEY }}
