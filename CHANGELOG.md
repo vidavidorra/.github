@@ -1,3 +1,13 @@
+## [4.2.2](https://github.com/vidavidorra/.github/compare/v4.2.1...v4.2.2) (2024-03-28)
+
+### Bug Fixes
+
+- **deps:** update wagoid/commitlint-github-action action to v6 ([9ff9ccb](https://github.com/vidavidorra/.github/commit/9ff9ccb6bdf05664f1d24cb543ba8580d9882f85))
+
+### Reverts
+
+- Revert "ci: temporary disable `lint-commit-messages` (#130)" ([5a3c0fb](https://github.com/vidavidorra/.github/commit/5a3c0fbee25d171b0588d5010e335252117656d5)), closes [#130](https://github.com/vidavidorra/.github/issues/130)
+
 ## [4.2.1](https://github.com/vidavidorra/.github/compare/v4.2.0...v4.2.1) (2024-03-26)
 
 ### Continuous Integration
