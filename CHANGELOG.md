@@ -1,3 +1,9 @@
+## [4.2.3](https://github.com/vidavidorra/.github/compare/v4.2.2...v4.2.3) (2024-03-28)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/github-action-app-user action to v1.0.2 ([fe9072d](https://github.com/vidavidorra/.github/commit/fe9072da236134f83954743d10f525288c9b23d2))
+
 ## [4.2.2](https://github.com/vidavidorra/.github/compare/v4.2.1...v4.2.2) (2024-03-28)
 
 ### Bug Fixes
