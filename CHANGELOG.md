@@ -1,3 +1,9 @@
+## [4.2.5](https://github.com/vidavidorra/.github/compare/v4.2.4...v4.2.5) (2024-03-30)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/github-app-token action to v1.0.2 ([2d110ea](https://github.com/vidavidorra/.github/commit/2d110ea3c4ba54360e372fb0b6ec3be172c4a282))
+
 ## [4.2.4](https://github.com/vidavidorra/.github/compare/v4.2.3...v4.2.4) (2024-03-29)
 
 ### Bug Fixes
