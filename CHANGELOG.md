@@ -1,3 +1,9 @@
+## [4.2.6](https://github.com/vidavidorra/.github/compare/v4.2.5...v4.2.6) (2024-03-30)
+
+### Bug Fixes
+
+- **deps:** update actions/add-to-project action to v1 ([#133](https://github.com/vidavidorra/.github/issues/133)) ([918785e](https://github.com/vidavidorra/.github/commit/918785e15e0c4053d57dc2032d9e942904e9a1c5))
+
 ## [4.2.5](https://github.com/vidavidorra/.github/compare/v4.2.4...v4.2.5) (2024-03-30)
 
 ### Bug Fixes
