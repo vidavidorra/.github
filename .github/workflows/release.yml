@@ -52,7 +52,7 @@ jobs:
           private-key: ${{ secrets.privateKey }}
       - name: GitHub App user
         id: appUser
-        uses: vidavidorra/github-action-app-user@1c93b21579e38fc16efaccbc524275e0e1c82867 # v1.0.6
+        uses: vidavidorra/github-action-app-user@c263c1c0d67c084f7a0db2710b7969f7e62140d5 # v1.0.7
         with:
           token: ${{ steps.appToken.outputs.token }}
           slug: ${{ steps.appToken.outputs.app-slug }}
