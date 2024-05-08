@@ -1,3 +1,9 @@
+## [4.2.24](https://github.com/vidavidorra/.github/compare/v4.2.23...v4.2.24) (2024-05-08)
+
+### Bug Fixes
+
+- correct wording of contributing guide reference ([4b2287e](https://github.com/vidavidorra/.github/commit/4b2287eff5bacabfd46b403220165908a581aae9))
+
 ## [4.2.23](https://github.com/vidavidorra/.github/compare/v4.2.22...v4.2.23) (2024-05-06)
 
 ### Bug Fixes
