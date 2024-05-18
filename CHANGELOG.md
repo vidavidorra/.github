@@ -1,3 +1,9 @@
+## [4.2.29](https://github.com/vidavidorra/.github/compare/v4.2.28...v4.2.29) (2024-05-18)
+
+### Bug Fixes
+
+- **deps:** update codecov/codecov-action action to v4.4.0 ([f117e8d](https://github.com/vidavidorra/.github/commit/f117e8d7381e4f41f07c854607ecf20416160b69))
+
 ## [4.2.28](https://github.com/vidavidorra/.github/compare/v4.2.27...v4.2.28) (2024-05-15)
 
 ### Bug Fixes
