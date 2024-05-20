@@ -1,3 +1,9 @@
+## [4.2.30](https://github.com/vidavidorra/.github/compare/v4.2.29...v4.2.30) (2024-05-20)
+
+### Bug Fixes
+
+- **deps:** update actions/checkout action to v4.1.6 ([3b1def8](https://github.com/vidavidorra/.github/commit/3b1def8999512c23632098330ea5fb553329d767))
+
 ## [4.2.29](https://github.com/vidavidorra/.github/compare/v4.2.28...v4.2.29) (2024-05-18)
 
 ### Bug Fixes
