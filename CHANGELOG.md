@@ -1,3 +1,15 @@
+## [4.2.32](https://github.com/vidavidorra/.github/compare/v4.2.31...v4.2.32) (2024-07-16)
+
+### Bug Fixes
+
+- **deps:** update actions/add-to-project action to v1.0.2 ([e05a58d](https://github.com/vidavidorra/.github/commit/e05a58d8b9732ad8dc61dfcc039ecc200e4b6e3b))
+- **deps:** update actions/checkout action to v4.1.7 ([6227152](https://github.com/vidavidorra/.github/commit/62271522b4812229e1b1f8acf6cd04b981f6a617))
+- **deps:** update actions/create-github-app-token action to v1.10.1 ([18f869e](https://github.com/vidavidorra/.github/commit/18f869e1316bfe7460dd3bbe0d764d6d036034ee))
+- **deps:** update actions/create-github-app-token action to v1.10.2 ([c428360](https://github.com/vidavidorra/.github/commit/c428360fe6db42735f439ee7aa7d7862730bd804))
+- **deps:** update actions/create-github-app-token action to v1.10.3 ([9d5df30](https://github.com/vidavidorra/.github/commit/9d5df3066cb064eaa875417eb3cc10ec39fcd5a9))
+- **deps:** update actions/setup-node action to v4.0.3 ([cb5ace3](https://github.com/vidavidorra/.github/commit/cb5ace3344fd6f5cd47938a30c99cdf7583bf0ca))
+- **deps:** update codecov/codecov-action action to v4.5.0 ([d7320ae](https://github.com/vidavidorra/.github/commit/d7320aebb7f3334a25a9ef991ef8eff4005b4753))
+
 ## [4.2.31](https://github.com/vidavidorra/.github/compare/v4.2.30...v4.2.31) (2024-05-23)
 
 ### Bug Fixes
