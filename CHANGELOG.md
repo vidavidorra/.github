@@ -1,3 +1,9 @@
+## [4.2.33](https://github.com/vidavidorra/.github/compare/v4.2.32...v4.2.33) (2024-08-08)
+
+### Bug Fixes
+
+- **deps:** update wagoid/commitlint-github-action action to v6.0.2 ([9235978](https://github.com/vidavidorra/.github/commit/9235978554f7a38b03382ebb824e71033a297ed5))
+
 ## [4.2.32](https://github.com/vidavidorra/.github/compare/v4.2.31...v4.2.32) (2024-07-16)
 
 ### Bug Fixes
