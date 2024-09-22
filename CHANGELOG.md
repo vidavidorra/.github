@@ -1,3 +1,9 @@
+## [4.2.38](https://github.com/vidavidorra/.github/compare/v4.2.37...v4.2.38) (2024-09-22)
+
+### Bug Fixes
+
+- **deps:** update actions/setup-node action to v4.0.4 ([57ca9f8](https://github.com/vidavidorra/.github/commit/57ca9f8ee617036ed3a000325fee598905312286))
+
 ## [4.2.37](https://github.com/vidavidorra/.github/compare/v4.2.36...v4.2.37) (2024-09-15)
 
 ### Bug Fixes
