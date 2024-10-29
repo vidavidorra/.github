@@ -1,3 +1,13 @@
+## [5.0.0](https://github.com/vidavidorra/.github/compare/v4.2.43...v5.0.0) (2024-10-29)
+
+### ⚠ BREAKING CHANGES
+
+- default workflows to Node.js 22, which entered active LTS as of today, 29 October 2024.
+
+### Features
+
+- default workflows to Node.js 22 ([#136](https://github.com/vidavidorra/.github/issues/136)) ([adef0c0](https://github.com/vidavidorra/.github/commit/adef0c0f759818d3326bb91310f8a7e3a1fba6c4))
+
 ## [4.2.43](https://github.com/vidavidorra/.github/compare/v4.2.42...v4.2.43) (2024-10-27)
 
 ### Bug Fixes
