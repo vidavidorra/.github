@@ -1,3 +1,9 @@
+## [5.0.19](https://github.com/vidavidorra/.github/compare/v5.0.18...v5.0.19) (2025-02-03)
+
+### Bug Fixes
+
+- **deps:** update actions/create-github-app-token action to v1.11.2 ([bf5dd59](https://github.com/vidavidorra/.github/commit/bf5dd59a247be00e41ce7a65d3d3f7dda2f70e99))
+
 ## [5.0.18](https://github.com/vidavidorra/.github/compare/v5.0.17...v5.0.18) (2025-01-27)
 
 ### Bug Fixes
