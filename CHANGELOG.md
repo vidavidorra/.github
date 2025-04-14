@@ -1,3 +1,9 @@
+## [5.0.29](https://github.com/vidavidorra/.github/compare/v5.0.28...v5.0.29) (2025-04-14)
+
+### Bug Fixes
+
+- **deps:** update actions/setup-node action to v4.4.0 ([f1c15f2](https://github.com/vidavidorra/.github/commit/f1c15f213ca0341779762a372dedfaef18387990))
+
 ## [5.0.28](https://github.com/vidavidorra/.github/compare/v5.0.27...v5.0.28) (2025-04-07)
 
 ### Bug Fixes
