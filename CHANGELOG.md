@@ -1,3 +1,9 @@
+## [5.0.41](https://github.com/vidavidorra/.github/compare/v5.0.40...v5.0.41) (2025-05-29)
+
+### Bug Fixes
+
+- **node-test-coverage:** change `file` input to `files` ([5745407](https://github.com/vidavidorra/.github/commit/5745407f5c7a152c653b8e0c69d3444cb3292630))
+
 ## [5.0.40](https://github.com/vidavidorra/.github/compare/v5.0.39...v5.0.40) (2025-05-28)
 
 ### Bug Fixes
