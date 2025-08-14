@@ -1,3 +1,9 @@
+## [6.0.1](https://github.com/vidavidorra/.github/compare/v6.0.0...v6.0.1) (2025-08-14)
+
+### Bug Fixes
+
+- **deps:** update actions/create-github-app-token action to v2.1.1 ([#142](https://github.com/vidavidorra/.github/issues/142)) ([820f513](https://github.com/vidavidorra/.github/commit/820f51397be2310921da3469c2ccdf31b66c488c))
+
 ## [6.0.0](https://github.com/vidavidorra/.github/compare/v5.0.72...v6.0.0) (2025-08-14)
 
 ### ⚠ BREAKING CHANGES
