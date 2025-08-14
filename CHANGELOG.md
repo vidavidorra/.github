@@ -1,3 +1,15 @@
+## [6.0.0](https://github.com/vidavidorra/.github/compare/v5.0.72...v6.0.0) (2025-08-14)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** update actions/checkout action to v5, requiring v2.327.1 as the minimal runner
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Bug Fixes
+
+- **deps:** update actions/checkout action to v5, requiring v2.327.1 as the minimal runner ([#141](https://github.com/vidavidorra/.github/issues/141)) ([980f7ac](https://github.com/vidavidorra/.github/commit/980f7ac4c07c9eaa600c8f7ea063b25e96f3a468))
+
 ## [5.0.72](https://github.com/vidavidorra/.github/compare/v5.0.71...v5.0.72) (2025-08-14)
 
 ### Bug Fixes
