@@ -1,3 +1,9 @@
+## [6.0.4](https://github.com/vidavidorra/.github/compare/v6.0.3...v6.0.4) (2025-08-23)
+
+### Bug Fixes
+
+- **deps:** update codecov/codecov-action action to v5.5.0 ([5b73bfd](https://github.com/vidavidorra/.github/commit/5b73bfdca6a0f21f4181d455451e5286210506d1))
+
 ## [6.0.3](https://github.com/vidavidorra/.github/compare/v6.0.2...v6.0.3) (2025-08-16)
 
 ### Bug Fixes
