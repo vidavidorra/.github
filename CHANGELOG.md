@@ -1,3 +1,9 @@
+## [6.0.9](https://github.com/vidavidorra/.github/compare/v6.0.8...v6.0.9) (2025-09-10)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/github-action-app-user action to v1.0.58 ([dd7e573](https://github.com/vidavidorra/.github/commit/dd7e5734636980742a979c6b2e2ce1540d41da7d))
+
 ## [6.0.8](https://github.com/vidavidorra/.github/compare/v6.0.7...v6.0.8) (2025-09-08)
 
 ### Bug Fixes
