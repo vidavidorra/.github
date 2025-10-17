@@ -1,3 +1,9 @@
+## [6.0.16](https://github.com/vidavidorra/.github/compare/v6.0.15...v6.0.16) (2025-10-17)
+
+### Bug Fixes
+
+- **deps:** update actions/setup-node action to v6 ([#146](https://github.com/vidavidorra/.github/issues/146)) ([47582a7](https://github.com/vidavidorra/.github/commit/47582a772009cb8fd5fb860516b68a18a654656c))
+
 ## [6.0.15](https://github.com/vidavidorra/.github/compare/v6.0.14...v6.0.15) (2025-10-13)
 
 ### Bug Fixes
