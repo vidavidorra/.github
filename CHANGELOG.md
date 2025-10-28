@@ -1,3 +1,13 @@
+## [7.0.0](https://github.com/vidavidorra/.github/compare/v6.0.16...v7.0.0) (2025-10-28)
+
+### ⚠ BREAKING CHANGES
+
+- default workflows to Node.js 24, which entered active LTS as of today, 28 October 2025.
+
+### Features
+
+- default workflows to Node.js 24 ([e3dc886](https://github.com/vidavidorra/.github/commit/e3dc8860458f06504d50da7b025967c22e00ac00))
+
 ## [6.0.16](https://github.com/vidavidorra/.github/compare/v6.0.15...v6.0.16) (2025-10-17)
 
 ### Bug Fixes
