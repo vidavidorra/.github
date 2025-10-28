@@ -10,10 +10,10 @@ on:
         type: string
         default: './coverage/cobertura-coverage.xml'
         required: false
-    secrets:
-      codecovToken:
-        description: 'A token passed from the caller workflow'
-        required: true
+permissions:
+  contents: read
+  id-token: write
+  pull-requests: write
 jobs:
   run:
     name: Test coverage (Node.js ${{ inputs.nodeVersion }})
@@ -34,4 +34,4 @@ jobs:
         uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.5.1
         with:
           files: ${{ inputs.coverageFile }}
-          token: ${{ secrets.codecovToken }}
+          use_oidc: true
