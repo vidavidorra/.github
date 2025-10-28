@@ -1,3 +1,13 @@
+## [8.0.0-beta.1](https://github.com/vidavidorra/.github/compare/v7.0.0...v8.0.0-beta.1) (2025-10-28)
+
+### ⚠ BREAKING CHANGES
+
+- **node-test-coverage:** `node-test-coverage` use OIDC instaed of the `npmToken`. To transition, remove the `npmToken` argument and make sure the calling action has the `id-token: write` permission set.
+
+### Features
+
+- **node-test-coverage:** use OIDC instead of the token ([c7f540e](https://github.com/vidavidorra/.github/commit/c7f540e7d05a84bf25aa913cd507215da5b6bf52))
+
 ## [7.0.0](https://github.com/vidavidorra/.github/compare/v6.0.16...v7.0.0) (2025-10-28)
 
 ### ⚠ BREAKING CHANGES
