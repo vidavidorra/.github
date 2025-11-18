@@ -1,3 +1,9 @@
+## [8.0.1](https://github.com/vidavidorra/.github/compare/v8.0.0...v8.0.1) (2025-11-18)
+
+### Bug Fixes
+
+- **deps:** update actions/checkout action to v5.0.1 ([6b38b23](https://github.com/vidavidorra/.github/commit/6b38b23131c7a6d662f4af104ecf884146dc0b06))
+
 ## [8.0.0](https://github.com/vidavidorra/.github/compare/v7.0.0...v8.0.0) (2025-11-04)
 
 ### ⚠ BREAKING CHANGES
