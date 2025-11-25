@@ -1,3 +1,9 @@
+## [8.0.3](https://github.com/vidavidorra/.github/compare/v8.0.2...v8.0.3) (2025-11-25)
+
+### Bug Fixes
+
+- **deps:** update actions/create-github-app-token action to v2.2.0 ([e2a2ebe](https://github.com/vidavidorra/.github/commit/e2a2ebeccf1a0a69f7b8a40e3aa49893255be250))
+
 ## [8.0.2](https://github.com/vidavidorra/.github/compare/v8.0.1...v8.0.2) (2025-11-24)
 
 ### Bug Fixes
