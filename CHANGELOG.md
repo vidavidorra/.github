@@ -1,3 +1,9 @@
+## [8.0.8](https://github.com/vidavidorra/.github/compare/v8.0.7...v8.0.8) (2025-12-13)
+
+### Bug Fixes
+
+- **deps:** update codecov/codecov-action action to v5.5.2 ([1a1add9](https://github.com/vidavidorra/.github/commit/1a1add945b5f093f60eab3240eb9822721345f75))
+
 ## [8.0.7](https://github.com/vidavidorra/.github/compare/v8.0.6...v8.0.7) (2025-12-09)
 
 ### Bug Fixes
