@@ -1,3 +1,9 @@
+## [8.0.13](https://github.com/vidavidorra/.github/compare/v8.0.12...v8.0.13) (2025-12-26)
+
+### Continuous Integration
+
+- replace semantic-release config with `@vidavidorra/semantic-release-config` ([b4ac408](https://github.com/vidavidorra/.github/commit/b4ac40810a208aa3a281aa596727fc8edffe1370))
+
 ## [8.0.12](https://github.com/vidavidorra/.github/compare/v8.0.11...v8.0.12) (2025-12-22)
 
 ### Bug Fixes
