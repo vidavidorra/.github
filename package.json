@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "20.4.2",
-    "@vidavidorra/commitlint-config": "7.1.12",
+    "@vidavidorra/commitlint-config": "7.1.14",
     "@vidavidorra/prettier-config": "1.0.6",
     "@vidavidorra/semantic-release-config": "1.0.4",
     "husky": "9.1.7",
