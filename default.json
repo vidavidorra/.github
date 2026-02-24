@@ -4,6 +4,7 @@
   "extends": [
     "config:best-practices",
     ":automergeBranch",
+    ":enableVulnerabilityAlerts",
     ":maintainLockFilesWeekly",
     ":prNotPending",
     ":rebaseStalePrs",
