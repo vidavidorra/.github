@@ -1,3 +1,9 @@
+## [8.1.0](https://github.com/vidavidorra/.github/compare/v8.0.22...v8.1.0) (2026-02-24)
+
+### Features
+
+- **renovate:** enable vulnerability alerts ([993a896](https://github.com/vidavidorra/.github/commit/993a8961fc3830b0fad99b5014c070f72486ea20))
+
 ## [8.0.22](https://github.com/vidavidorra/.github/compare/v8.0.21...v8.0.22) (2026-02-03)
 
 ### Bug Fixes
