@@ -1,3 +1,9 @@
+## [8.1.1](https://github.com/vidavidorra/.github/compare/v8.1.0...v8.1.1) (2026-02-28)
+
+### Bug Fixes
+
+- **deps:** remove conventional-changelog-conventionalcommits override ([82cd180](https://github.com/vidavidorra/.github/commit/82cd18038cdb9513b865e04c5e7f45a2b59e3a5e))
+
 ## [8.1.0](https://github.com/vidavidorra/.github/compare/v8.0.22...v8.1.0) (2026-02-24)
 
 ### Features
