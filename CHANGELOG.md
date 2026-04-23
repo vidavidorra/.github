@@ -1,3 +1,9 @@
+## [8.1.12](https://github.com/vidavidorra/.github/compare/v8.1.11...v8.1.12) (2026-04-23)
+
+### Bug Fixes
+
+- **deps:** update actions/setup-node action to v6.4.0 ([bc717ea](https://github.com/vidavidorra/.github/commit/bc717ea3ec615712af9a2bcd1d3ab6383f90df29))
+
 ## [8.1.11](https://github.com/vidavidorra/.github/compare/v8.1.10...v8.1.11) (2026-04-15)
 
 ### Bug Fixes
