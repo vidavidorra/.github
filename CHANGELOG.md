@@ -1,3 +1,9 @@
+## [8.1.25](https://github.com/vidavidorra/.github/compare/v8.1.24...v8.1.25) (2026-10-29)
+
+### Bug Fixes
+
+- **deps:** temporary pin vidavidorra/github-action-app-user to main ([d38c54c](https://github.com/vidavidorra/.github/commit/d38c54cdbb126a61f43a0341d0e2f6391f84946e))
+
 ## [8.1.24](https://github.com/vidavidorra/.github/compare/v8.1.23...v8.1.24) (2026-07-17)
 
 ### Bug Fixes
