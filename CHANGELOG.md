@@ -1,3 +1,11 @@
+## [8.1.28](https://github.com/vidavidorra/.github/compare/v8.1.27...v8.1.28) (2026-10-30)
+
+### Bug Fixes
+
+- **deps:** update actions/create-github-app-token action to v3.3.0 ([#165](https://github.com/vidavidorra/.github/issues/165)) ([a3e9cdc](https://github.com/vidavidorra/.github/commit/a3e9cdc0a034cf55f62bdee98d435853b6f2c82f))
+- **deps:** update actions/setup-node action to v7 ([#159](https://github.com/vidavidorra/.github/issues/159)) ([ac82895](https://github.com/vidavidorra/.github/commit/ac82895f7265e29bd4a2bfec3550214f96484262))
+- **deps:** update codecov/codecov-action action to v7.1.1 ([#164](https://github.com/vidavidorra/.github/issues/164)) ([bf70922](https://github.com/vidavidorra/.github/commit/bf70922d15d26a25159da39c1938c16d92899313))
+
 ## [8.1.27](https://github.com/vidavidorra/.github/compare/v8.1.26...v8.1.27) (2026-10-30)
 
 ### Bug Fixes
