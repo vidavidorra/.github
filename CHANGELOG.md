@@ -1,3 +1,9 @@
+## [8.1.27](https://github.com/vidavidorra/.github/compare/v8.1.26...v8.1.27) (2026-10-30)
+
+### Bug Fixes
+
+- **deps:** update actions/checkout action to v7.0.1 ([#160](https://github.com/vidavidorra/.github/issues/160)) ([f93990b](https://github.com/vidavidorra/.github/commit/f93990b71b31fd5c6d4e436d310032de89e56dc9))
+
 ## [8.1.26](https://github.com/vidavidorra/.github/compare/v8.1.25...v8.1.26) (2026-10-29)
 
 ### Bug Fixes
