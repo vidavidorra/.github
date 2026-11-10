@@ -1,3 +1,9 @@
+## [8.1.30](https://github.com/vidavidorra/.github/compare/v8.1.29...v8.1.30) (2026-11-10)
+
+### Bug Fixes
+
+- **deps:** update actions/add-to-project action to v2.0.1 ([e31bd96](https://github.com/vidavidorra/.github/commit/e31bd96f4935bb3155d26227d453e3c1984b62b3))
+
 ## [8.1.29](https://github.com/vidavidorra/.github/compare/v8.1.28...v8.1.29) (2026-11-02)
 
 ### Bug Fixes
