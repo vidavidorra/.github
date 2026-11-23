@@ -1,3 +1,13 @@
+## [9.0.0](https://github.com/vidavidorra/.github/compare/v8.1.31...v9.0.0) (2026-11-23)
+
+### ⚠ BREAKING CHANGES
+
+- Default workflows to Node.js 26, instead of Node.js 24 which entered maintenance LTS on 20 November 2026.
+
+### Features
+
+- default workflows to Node.js 26 ([ddc988a](https://github.com/vidavidorra/.github/commit/ddc988ab8a0e83678dd4e4b82b1a8c6d28124748))
+
 ## [8.1.31](https://github.com/vidavidorra/.github/compare/v8.1.30...v8.1.31) (2026-11-22)
 
 ### Bug Fixes
